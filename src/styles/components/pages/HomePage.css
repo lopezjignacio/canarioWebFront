@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.holder{
+	font-family: 'Lato', sans-serif;
+    background-color: #FFD700;
+	color: black;
+}
+
+.box1{
+	float: none;
+	border: solid 1px black;
+}
+
+.frente{
+	clear: both;
+	margin-bottom: 1.5em;
+	float: left;
+	box-sizing: border-box;
+	width: 40%;
+	align-content: center;
+	align-items: center;
+}
+
+.imgfrente{
+	height: 100%;
+	width: 100%;
+}
+
+.bienvenidos{
+	text-align: center;
+	font-size: 2em;
+	font-weight: 800;
+	text-decoration: underline;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.intro{
+	/*border: 1px solid #FBFF33;*/
+	background-color: #FFD700;
+	width: 60%;
+	box-sizing: border-box;
+	/*padding-right: 2em;*/
+	float: right;
+}
+
+.box1, .comentarios{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.intro p{
+	font-size: 1.3em;
+}
+
+
+.comentarios{
+	/*border: 1px solid #FBFF33;*/
+	background-color: black;
+	color: #FFD700;
+	text-align: center;
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+.comentario1{
+	background-color: #FFD700;
+	color: black;
+	align-content: space-around;
+	border: solid 1px black;
+}
+
+.comentario2{
+	background-color: #FFD700;
+	color: black;
+	border: solid 1px black;
+}
+
+.comentario3{
+	background-color: #FFD700;
+	color: black;
+	border: solid 1px black;
+}
+
+.comentario4{
+	background-color: #FFD700;
+	color: black;
+	border: solid 1px black;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+header{
+	padding: 1em 0;
+	flex-direction: row;
+  height: 100px;
+  background-color: black;
+}
+
+header h1{
+	font-family: 'Dosis', sans-serif;
+	color: #FFD700;
+	/*text-shadow: 5px 5px 5px #FFD700;*/
+	/*font-weight: 700;*/
+	/*font-style: italic;*/
+	font-size: 3em;
+	display: inline-block;
+	position: relative;
+	bottom: 0.8em;
+	margin: 0;
+}
+
+img{
+  /*float: left;*/
+  height: 100px;
+}

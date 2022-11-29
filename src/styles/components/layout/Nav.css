@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+nav{
+    color:black;
+    background-color: #FFD700;
+    margin-bottom: 0;
+    width: 100%;
+    flex-direction: row;
+    align-content: center;
+    /*height: 60px;*/
+    /*justify-content: space-between;*/
+}
+
+nav ul{
+  font-family: 'Source Sans Pro', sans-serif;
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+  /* width: 60px; */
+  /* height: 100%; */
+}
+
+nav ul li{
+  display: inline-block;
+  width: 16.3%;
+  flex-grow:1;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+  padding: 0.2em 0.4em;
+  display: block;
+  text-align: center;
+  /*font-size: 18px;*/
+  /*flex-direction: row;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: center;
+  display: flex;*/
+  }
+
+nav ul li a:hover{
+  background-color: black;
+  color: #FFD700;
+}
+
+nav ul li a.active{
+  background-color: black;
+  color: #FFD700;
+}

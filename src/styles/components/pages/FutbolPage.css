@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.main2{
+	font-family: 'Lato', sans-serif;
+	background-color: black;
+	color: yellow;
+}
+
+.futboltitle{
+	border: 1px solid black;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.futbolimg{
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.imgfutbol{
+	height: 100%;
+	width: 100%;
+}
+
+.futbolintro{
+	border: 1px solid black;
+}
+
