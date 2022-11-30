@@ -11,7 +11,18 @@ const BasquetPage = (props) =>{
 				<img className="imgbasquet" src="images/basquet.jpg" /*width="100"*/ alt="Basquet" />
 			</div>
 			<div className="basquetintro">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Desde 1976, la Sociedad de Fomento Los Álamos prepara y educa a los niños y jóvenes en básquet. Desde hace más de 40 años presenta equipos en las ligas regionales, con el orgullo de pertenecer a la familia canaria.</p>
+				<p>Actualmente, se desempeña en la Liga del Sur, en modalidades femenina, masculina y mixta, compitiendo en las siguientes categorías:</p>
+				<ul>
+					<li>Pre-mini</li>
+					<li>Mini</li>
+					<li>U-13</li>
+					<li>U-15</li>
+					<li>U-17</li>
+					<li>U-19</li>
+					<li>Primera División</li>
+					<li>Maxi Básquet (+35 años)</li>
+				</ul>
 			</div>
 		</main>
 		);

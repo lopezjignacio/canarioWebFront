@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import ResultadoItem from '../components/resultados/ResultadoItem';
+import '../styles/components/pages/Resultados.css';
 
 const Resultados = (props) =>{
 

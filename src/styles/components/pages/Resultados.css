@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.main3{
+	font-family: 'Lato', sans-serif;
+	background-color: black;
+	color: yellow;
+}
+
+h2{
+	margin: 0;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 2em;
+}
+
+table{
+	align-content: space-between;
+	width: 100%;
+/*	border-collapse: collapse*/
+	border-collapse : separate;
+  border-spacing: 15px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+th{
+	height: 70px;
+}
+
+td{
+	height: 40px;
+	width: 60px;
+	text-align: center;
+}
+
+/*table, th, td {
+  border: 1px solid;
+}*/
+
+.imgt{
+	height: 100%;
+	width: 100%;
+  object-fit: contain;
+}
